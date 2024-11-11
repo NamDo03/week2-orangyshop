@@ -20,7 +20,7 @@
             <span class="info__location">78 Trung Kinh, Yen Hoa, Cau Giay, Hanoi</span>
         </div>
         <!-- Swiper  -->
-        <div class="swiper mySwiper info-slider">
+        <div class="swiper info-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">(+84) 12 34 5678</div>
                 <div class="swiper-slide">78 Trung Kinh, Yen Hoa, Cau Giay, Hanoi</div>
@@ -110,19 +110,81 @@
         </div>
     </section>
 
+    <!-- Product Slider -->
+    <section class="product-slider">
+        <h2>Discover unique items</h2>
+        <div class="swiper swiper-product">
+            <div class="swiper-wrapper product-slider__list">
+                <div class="swiper-slide product-grid__product">
+                    <img src="./assets/img/product-slider/product1.png" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Dining Table</span>
+                        <h3>Releve platter</h3>
+                        <span class="product-grid__product-price">$699.00</span>
+                    </div>
+                </div>
+                <div class="swiper-slide product-grid__product">
+                    <img src="./assets/img/product-slider/product2.png" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Candle</span>
+                        <h3>Spire tapered candle</h3>
+                        <span class="product-grid__product-price">$699.00</span>
+                    </div>
+                    <div class="selling-fast">Selling fast!</div>
+                    <div class="new">New</div>
+                </div>
+                <div class="swiper-slide product-grid__product">
+                    <img src="./assets/img/product-slider/product3.png" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Storage</span>
+                        <h3>Umanoff planter</h3>
+                        <span class="product-grid__product-price">$699.00</span>
+                    </div>
+                </div>
+                <div class="swiper-slide product-grid__product">
+                    <img src="./assets/img/product-slider/product4.png" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Lantern</span>
+                        <h3>Hashira pendant lamp cluster</h3>
+                        <span class="product-grid__product-price">$1,199.00</span>
+                    </div>
+                </div>
+                <div class="swiper-slide product-grid__product">
+                    <img src="./assets/img/decor/product1.webp" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Dining Chair</span>
+                        <h3>Ready dining chair</h3>
+                        <span class="product-grid__product-price">$699.00</span>
+                    </div>
+                </div>
+                <div class="swiper-slide product-grid__product">
+                    <img src="./assets/img/lighting/product6.webp" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Dining Chair</span>
+                        <h3>Ready dining chair</h3>
+                        <span class="product-grid__product-price">$699.00</span>
+                    </div>
+                </div>
+                <div class="swiper-slide product-grid__product">
+                    <img src="./assets/img/storage/product5.avif" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Dining Chair</span>
+                        <h3>Ready dining chair</h3>
+                        <span class="product-grid__product-price">$699.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </section>
 
     <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
-    <script defer>
-        var swiper = new Swiper(".mySwiper", {
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
+    <script src="./swiper.js" defer></script>
     <script type="module" src="./scipt.js" defer></script>
 </body>
 
