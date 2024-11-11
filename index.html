@@ -41,15 +41,81 @@
         <a href="#product-grid">explore now</a>
     </section>
 
-    <section class="product-grid-tabs" id="product-grid">
+    <!-- Products Grid Tabs -->
+    <section class="product-grid" id="product-grid">
+        <div class="product-grid__top">
+            <h2>Our picks for you</h2>
+            <div class="product-grid__tabs">
+                <a class="product-grid__tabs-item tabs-item--selected">Seating</a>
+                <a class="product-grid__tabs-item">Table</a>
+                <a class="product-grid__tabs-item">Storage</a>
+                <a class="product-grid__tabs-item">Lighting</a>
+                <a class="product-grid__tabs-item">Decor</a>
+            </div>
+        </div>
+        <div class="product-grid__bottom">
+            <div class="product-grid__products">
+                <div class="product-grid__product grid-1">
+                    <img src="./assets/img/product-grid-tabs/product1.jpg" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Sofa</span>
+                        <h3>Oda ottoman</h3>
+                        <span class="product-grid__product-price">$699.00</span>
+                    </div>
+                </div>
+                <div class="product-grid__product">
+                    <img src="./assets/img/product-grid-tabs/product2.jpg" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Dining Chair</span>
+                        <h3>Ready dining chair</h3>
+                        <span class="product-grid__product-price">$699.00</span>
+                    </div>
+                    <div class="selling-fast">Selling fast!</div>
+                    <div class="new">New</div>
+                </div>
+                <div class="product-grid__product">
+                    <img src="./assets/img/product-grid-tabs/product3.jpg" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Dining Chair</span>
+                        <h3>Harbour side dining chair</h3>
+                        <span class="product-grid__product-price">$999.00</span>
+                    </div>
+                </div>
+                <div class="product-grid__product">
+                    <img src="./assets/img/product-grid-tabs/product4.jpg" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Sofa</span>
+                        <h3 class="product-grid__product-desc">Tearoom club chair</h3>
+                        <span class="product-grid__product-price">$699.00</span>
+                    </div>
+                    <div class="coupon">-30%</div>
+                </div>
+                <div class="product-grid__product">
+                    <img src="./assets/img/product-grid-tabs/product5.jpg" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Dining Chair</span>
+                        <h3>Co dining chair</h3>
+                        <span class="product-grid__product-price">$1,199.00</span>
+                    </div>
+                </div>
+                <div class="product-grid__product grid-6">
+                    <img src="./assets/img/product-grid-tabs/product6.jpg" />
+                    <div class="product-grid__product-info">
+                        <span class="product-grid__product-title">Sofa</span>
+                        <h3>Knitting lounge chair</h3>
+                        <span class="product-grid__product-price">$999.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
     <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" ></script>
 
     <!-- Initialize Swiper -->
-    <script>
+    <script defer>
         var swiper = new Swiper(".mySwiper", {
             navigation: {
                 nextEl: ".swiper-button-next",
@@ -57,6 +123,7 @@
             },
         });
     </script>
+    <script type="module" src="./scipt.js" defer></script>
 </body>
 
 </html>
