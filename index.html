@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Link Fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Orangy Shop</title>
+</head>
+
+<body>
+    <header>
+        <div class="info">
+            <span class="info__phone">(+84) 12 34 5678</span>
+            <span class="info__location">78 Trung Kinh, Yen Hoa, Cau Giay, Hanoi</span>
+        </div>
+        <!-- Swiper  -->
+        <div class="swiper mySwiper info-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">(+84) 12 34 5678</div>
+                <div class="swiper-slide">78 Trung Kinh, Yen Hoa, Cau Giay, Hanoi</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <nav>
+            <h1>Orangy</h1>
+        </nav>
+
+    </header>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
