@@ -263,6 +263,36 @@ nav h1 {
     --swiper-navigation-size: 20px;
 }
 
+/* Text Carousel  */
+.text-carousel {
+    padding: 90px 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.text-carousel__track {
+    display: flex;
+    animation: slide 20s linear infinite;
+}
+
+.text-carousel h2 {
+    padding: 0 24px;
+    font-size: 74px;
+    line-height: 90px;
+    opacity: 0.2;
+    font-weight: 400;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 /* Mobile */
 @media (max-width: 767px) {
     .info {
@@ -296,7 +326,7 @@ nav h1 {
     }
 
     .product-grid__tabs {
-        gap: 25px;
+        gap: 15px;
     }
 
     .product-grid__product img {
@@ -334,6 +364,7 @@ nav h1 {
         padding: 47.3px 25px 0;
         min-height: 100vh;
     }
+
     .product-slider {
         padding: 30px 25px;
     }
