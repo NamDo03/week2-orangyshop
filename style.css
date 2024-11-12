@@ -351,6 +351,16 @@ nav h1 {
         padding: 30px 15px;
     }
 
+    .text-carousel {
+        padding: 48px 0;
+    }
+
+    .text-carousel h2 {
+        font-size: 60px;
+        line-height: 64px;
+        opacity: 0.2;
+        font-weight: 400;
+    }
 }
 
 /* Tablet  */
